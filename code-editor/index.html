@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <title>ujjawal - Online Code Compiler</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Online Code Compiler</h1>
+      <button id="theme-toggle">🌙 Dark Mode</button>
+    </div>
+    <div class="editor-container">
+      <div class="editor">
+        <div class="editor-header">
+          <label for="html">HTML</label>
+          <button class="copy-button" data-type="html">📋 Copy HTML</button>
+        </div>
+        <textarea id="html" placeholder="Write your HTML here..." data-type="html"></textarea>
+        <div class="suggestions" id="html-suggestions"></div>
+      </div>
+      <div class="editor">
+        <div class="editor-header">
+          <label for="css">CSS</label>
+          <button class="copy-button" data-type="css">📋 Copy CSS</button>
+        </div>
+        <textarea id="css" placeholder="Write your CSS here..." data-type="css"></textarea>
+        <div class="suggestions" id="css-suggestions"></div>
+      </div>
+      <div class="editor">
+        <div class="editor-header">
+          <label for="js">JavaScript</label>
+          <button class="copy-button" data-type="js">📋 Copy JavaScript</button>
+        </div>
+        <textarea id="js" placeholder="Write your JavaScript here..." data-type="js"></textarea>
+        <div class="suggestions" id="js-suggestions"></div>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="run-button">▶️ Run Code</button>
+      <button id="format-button">✨ Format Code</button>
+    </div>
+    <div class="preview-container">
+      <h2>Preview</h2>
+      <iframe id="preview"></iframe>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
