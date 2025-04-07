@@ -1,7 +1,7 @@
 # code-editor
 
 # Click here👇
-- [visit this page](ujjwaltri-game.netlify.app)
+- [visit this page](https://ujjwaltri-game.netlify.app/)
 ujjawal - Online Code Compiler
 
 ujjawal is a web-based Online Code Compiler that allows users to write, edit, and preview their HTML, CSS, and JavaScript code in real time. The project provides an interactive environment to experiment with web technologies effortlessly.
